@@ -128,8 +128,8 @@ ul {
 /* Logo + SVG ring */
 .pl-logo-wrap {
   position: relative;
-  width: 320px;
-  height: 320px;
+  width: 400px;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -145,8 +145,8 @@ ul {
   filter: drop-shadow(0 0 8px rgba(123,199,77,0.5));
 }
 .pl-logo-img {
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   object-fit: contain;
   border-radius: 50%;
   position: relative;
@@ -252,34 +252,37 @@ ul {
 
 .cursor-dot {
   position: fixed;
-  width: 8px;
-  height: 8px;
-  background: var(--lime);
+  width: 10px;
+  height: 10px;
+  background: #fff;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  transition: width 0.25s, height 0.25s, background 0.25s;
+  transition: width 0.25s, height 0.25s, background 0.25s, opacity 0.25s;
   z-index: 10002;
+  box-shadow: 0 0 8px rgba(255,255,255,0.6);
 }
 .cursor-ring {
   position: fixed;
-  width: 42px;
-  height: 42px;
-  border: 1.5px solid rgba(123, 199, 77, 0.5);
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
   border-radius: 50%;
   transform: translate(-50%, -50%);
   transition: width 0.35s var(--ease-out-expo), height 0.35s var(--ease-out-expo),
-    border-color 0.3s;
+    border-color 0.3s, background 0.3s;
   z-index: 10001;
 }
 body.cursor-hover .cursor-dot {
-  width: 48px;
-  height: 48px;
-  background: rgba(123, 199, 77, 0.15);
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: none;
 }
 body.cursor-hover .cursor-ring {
-  width: 60px;
-  height: 60px;
-  border-color: var(--lime);
+  width: 62px;
+  height: 62px;
+  border-color: #fff;
+  background: rgba(255,255,255,0.04);
 }
 body.cursor-text .cursor-dot {
   width: 3px;
@@ -316,13 +319,13 @@ body.cursor-text .cursor-ring {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 clamp(1.5rem, 4vw, 4rem);
-  height: 68px;
+  height: 82px;
   display: flex;
   align-items: center;
   gap: 0;
 }
 .nav.scrolled .nav-inner {
-  height: 60px;
+  height: 72px;
 }
 
 /* Logo */
@@ -334,8 +337,8 @@ body.cursor-text .cursor-ring {
   flex-shrink: 0;
 }
 .nav-logo-img {
-  width: 38px;
-  height: 38px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   object-fit: contain;
 }

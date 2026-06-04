@@ -38,3 +38,20 @@
 {"timestamp":"00:06:08.004","source":"Browser","level":"WARN","message":"\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\u001b[39m"}
 {"timestamp":"00:06:08.004","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\" \"\\u001b[2m(src/components/WebGLScene.tsx:172:19)\\u001b[22m\""}
 {"timestamp":"00:06:08.004","source":"Browser","level":"WARN","message":"\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\u001b[39m"}
+{"timestamp":"00:15:33.788","source":"Server","level":"LOG","message":"✓ Compiled in 234ms"}
+{"timestamp":"00:15:40.509","source":"Server","level":"LOG","message":"✓ Compiled in 166ms"}
+{"timestamp":"00:16:46.643","source":"Server","level":"LOG","message":"✓ Compiled in 224ms"}
+{"timestamp":"00:16:59.744","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:17:06.296","source":"Server","level":"LOG","message":"✓ Compiled in 219ms"}
+{"timestamp":"00:17:11.492","source":"Server","level":"LOG","message":"✓ Compiled in 235ms"}
+{"timestamp":"00:17:16.423","source":"Server","level":"LOG","message":"✓ Compiled in 238ms"}
+{"timestamp":"00:18:34.659","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:18:34.939","source":"Browser","level":"WARN","message":"THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:18:34.939","source":"Browser","level":"WARN","message":"THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead."}
+{"timestamp":"00:18:34.939","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\" \"\\u001b[2m(src/components/WebGLScene.tsx:172:19)\\u001b[22m\""}
+{"timestamp":"00:18:34.939","source":"Browser","level":"WARN","message":"\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\u001b[39m"}
+{"timestamp":"00:18:34.940","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\\u001b[39m\" \"\\u001b[2m(src/components/WebGLScene.tsx:172:19)\\u001b[22m\""}
+{"timestamp":"00:18:34.940","source":"Browser","level":"WARN","message":"\u001b[33mTHREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.\u001b[39m"}
+{"timestamp":"00:19:12.357","source":"Browser","level":"WARN","message":"Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior"}
+{"timestamp":"00:19:12.367","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\\\"smooth\\\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\\u001b[39m\""}
+{"timestamp":"00:19:12.367","source":"Browser","level":"WARN","message":"\u001b[33mDetected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior=\"smooth\"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior\u001b[39m"}

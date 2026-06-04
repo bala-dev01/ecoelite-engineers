@@ -34,7 +34,7 @@ export default function Navigation() {
 
           {/* Logo */}
           <Link href="/" className="nav-logo">
-            <Image src="/EEE.png" alt="Ecoelite Engineers" width={38} height={38} className="nav-logo-img" priority />
+            <Image src="/EEE.png" alt="Ecoelite Engineers" width={68} height={68} className="nav-logo-img" priority />
             <div className="nav-logo-text">
               <span className="nav-logo-main">ECOELITE</span>
               <span className="nav-logo-sub">ENGINEERS</span>

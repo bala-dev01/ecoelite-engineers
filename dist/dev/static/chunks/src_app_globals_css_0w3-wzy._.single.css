@@ -899,8 +899,8 @@ ul {
 .pl-logo-wrap {
   justify-content: center;
   align-items: center;
-  width: 320px;
-  height: 320px;
+  width: 400px;
+  height: 400px;
   display: flex;
   position: relative;
 }
@@ -920,8 +920,8 @@ ul {
   object-fit: contain;
   z-index: 1;
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 240px;
+  height: 240px;
   position: relative;
 }
 
@@ -1017,38 +1017,41 @@ ul {
 }
 
 .cursor-dot {
-  background: var(--lime);
   z-index: 10002;
+  background: #fff;
   border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  transition: width .25s, height .25s, background .25s;
+  width: 10px;
+  height: 10px;
+  transition: width .25s, height .25s, background .25s, opacity .25s;
   position: fixed;
   transform: translate(-50%, -50%);
+  box-shadow: 0 0 8px #fff9;
 }
 
 .cursor-ring {
-  width: 42px;
-  height: 42px;
+  width: 40px;
+  height: 40px;
   transition: width .35s var(--ease-out-expo), height .35s var(--ease-out-expo),
-    border-color .3s;
+    border-color .3s, background .3s;
   z-index: 10001;
-  border: 1.5px solid #7bc74d80;
+  border: 2px solid #ffffffbf;
   border-radius: 50%;
   position: fixed;
   transform: translate(-50%, -50%);
 }
 
 body.cursor-hover .cursor-dot {
-  background: #7bc74d26;
-  width: 48px;
-  height: 48px;
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
+  background: #ffffff1f;
 }
 
 body.cursor-hover .cursor-ring {
-  border-color: var(--lime);
-  width: 60px;
-  height: 60px;
+  background: #ffffff0a;
+  border-color: #fff;
+  width: 62px;
+  height: 62px;
 }
 
 body.cursor-text .cursor-dot {
@@ -1084,14 +1087,14 @@ body.cursor-text .cursor-ring {
   align-items: center;
   gap: 0;
   max-width: 1400px;
-  height: 68px;
+  height: 82px;
   margin: 0 auto;
   padding: 0 clamp(1.5rem, 4vw, 4rem);
   display: flex;
 }
 
 .nav.scrolled .nav-inner {
-  height: 60px;
+  height: 72px;
 }
 
 .nav-logo {
@@ -1105,8 +1108,8 @@ body.cursor-text .cursor-ring {
 .nav-logo-img {
   object-fit: contain;
   border-radius: 50%;
-  width: 38px;
-  height: 38px;
+  width: 68px;
+  height: 68px;
 }
 
 .nav-logo-text {
