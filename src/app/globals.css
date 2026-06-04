@@ -527,8 +527,8 @@ body.cursor-text .cursor-ring {
 
 @media (max-width: 900px) {
   .nav-sep,
-  .nav-links,
-  .nav-cta { display: none; }
+  .nav-links { display: none; }
+  .nav-cta   { display: none !important; }
   .nav-toggle { display: flex; }
 }
 
@@ -1039,6 +1039,9 @@ body.cursor-text .cursor-ring {
 .hero-line {
   display: block;
   overflow: hidden;
+  /* Extra space so text-shadow isn't clipped by overflow:hidden */
+  padding: 0.1em 0.15em 0.35em;
+  margin: -0.1em -0.15em -0.35em;
 }
 .hero-line-inner {
   display: block;

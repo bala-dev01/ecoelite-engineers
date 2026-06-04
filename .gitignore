@@ -20,6 +20,9 @@
 # production
 /build
 
+# static export — built by Netlify CI, never commit
+/dist
+
 # misc
 .DS_Store
 *.pem
