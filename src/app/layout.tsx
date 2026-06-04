@@ -18,7 +18,32 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Ecoelite Engineers | Sustainable Engineering Solutions",
   description:
-    "Ecoelite Engineers — Pioneering sustainable HVAC and electrical engineering solutions for a greener tomorrow.",
+    "Ecoelite Engineers — Ventilation, air purification and electrical panel solutions for commercial and industrial facilities in Bengaluru.",
+  metadataBase: new URL("https://ecoelite-engineers.netlify.app"),
+  openGraph: {
+    title: "Ecoelite Engineers | Ventilation · Air Purification · Electrical",
+    description:
+      "Mixed flow fans, electrostatic air cleaners and electrical panels — supplied and installed by Ecoelite Engineers, Bengaluru.",
+    url: "https://ecoelite-engineers.netlify.app",
+    siteName: "Ecoelite Engineers",
+    images: [
+      {
+        url: "/assets/Meta_Image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ecoelite Engineers — Ventilation, Air Purification & Electrical Solutions",
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ecoelite Engineers | Ventilation · Air Purification · Electrical",
+    description:
+      "Mixed flow fans, electrostatic air cleaners and electrical panels — supplied and installed in Bengaluru.",
+    images: ["/assets/Meta_Image.jpg"],
+  },
 };
 
 export const viewport: Viewport = {
