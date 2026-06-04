@@ -2,17 +2,10 @@
 
 import dynamic from 'next/dynamic';
 import Preloader from '@/components/Preloader';
-import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import Marquee from '@/components/Marquee';
-import About from '@/components/About';
-import Services from '@/components/Services';
-import Products from '@/components/Products';
-import Advantages from '@/components/Advantages';
+import FeaturedProducts from '@/components/FeaturedProducts';
 import CTA from '@/components/CTA';
-import Contact from '@/components/Contact';
-import Footer from '@/components/Footer';
-import CustomCursor from '@/components/CustomCursor';
 import {
   usePreloader,
   useHeroAnimation,
@@ -35,19 +28,11 @@ export default function Home() {
   return (
     <>
       <Preloader />
-      <CustomCursor />
       <WebGLScene />
-      <div className="noise-overlay" />
-      <Navigation />
       <Hero />
+      <FeaturedProducts />
       <Marquee />
-      <About />
-      <Services />
-      <Products />
-      <Advantages />
       <CTA />
-      <Contact />
-      <Footer />
     </>
   );
 }

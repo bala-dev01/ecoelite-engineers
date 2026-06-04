@@ -15,8 +15,8 @@ export default function Footer() {
               <span>ECOELITE ENGINEERS</span>
             </a>
             <p>
-              Sustainable HVAC &amp; electrical engineering solutions designed for
-              performance, efficiency and a greener tomorrow.
+              Ventilation, air purification and electrical engineering solutions for
+              commercial and industrial facilities across Bengaluru and beyond.
             </p>
           </div>
 
@@ -29,11 +29,11 @@ export default function Footer() {
               <a href="#contact">Contact</a>
             </div>
             <div className="footer-col">
-              <h4>Services</h4>
-              <a href="#services">Electrical</a>
-              <a href="#services">HVAC Systems</a>
-              <a href="#services">Energy Management</a>
-              <a href="#services">Consulting</a>
+              <h4>Products</h4>
+              <a href="#products">Mixed Flow Fans</a>
+              <a href="#products">Circular Inline Fans</a>
+              <a href="#products">Electrostatic Air Cleaner</a>
+              <a href="#products">Electrical Panels</a>
             </div>
             <div className="footer-col">
               <h4>Connect</h4>

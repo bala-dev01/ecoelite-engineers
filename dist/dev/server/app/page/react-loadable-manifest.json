@@ -1,0 +1,11 @@
+{
+  "[project]/src/components/WebGLScene.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/WebGLScene.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_three_build_three_core_0qefhn6.js",
+      "static/chunks/node_modules_three_build_three_module_024z3_h.js",
+      "static/chunks/src_components_WebGLScene_tsx_0v87ywi._.js",
+      "static/chunks/src_components_WebGLScene_tsx_0vsf8iq._.js"
+    ]
+  }
+}

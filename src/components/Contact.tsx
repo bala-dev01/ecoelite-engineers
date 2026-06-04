@@ -16,15 +16,15 @@ export default function Contact() {
             <div className="contact-details">
               <div className="contact-detail">
                 <span className="detail-label">Email</span>
-                <a href="mailto:info@ecoelite.co.uk">info@ecoelite.co.uk</a>
+                <a href="mailto:sales@ecoelite.in">sales@ecoelite.in</a>
               </div>
               <div className="contact-detail">
                 <span className="detail-label">Phone</span>
-                <a href="tel:+442012345678">+44 (0) 20 1234 5678</a>
+                <a href="tel:+919916808524">+91 99168 08524</a>
               </div>
               <div className="contact-detail">
-                <span className="detail-label">Location</span>
-                <span>London, United Kingdom</span>
+                <span className="detail-label">Address</span>
+                <span>#12AS, 1st Floor, 1st Cross, 2nd Block,<br />4th Phase, Srividya Nagar,<br />BSK 3rd Stage, Bangalore – 560085</span>
               </div>
             </div>
 

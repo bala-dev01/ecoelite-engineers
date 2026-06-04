@@ -1,9 +1,10 @@
 'use client';
 
 const WORDS = [
-  'Sustainable Engineering', 'HVAC Systems', 'Electrical Installations',
-  'Energy Efficiency', 'Climate Control', 'Green Technology',
-  'Smart Buildings', 'Ventilation Solutions',
+  'Ventilation Solutions', 'Mixed Flow Fans', 'Circular Inline Fans',
+  'Air Purification', 'Electrostatic Precipitator', 'Kitchen Exhaust Scrubbers',
+  'UVGI Systems', 'Electrical Panels', 'AHU Starter Panels', 'LT Panels',
+  'Basement Ventilation', 'CPM Panels',
 ];
 
 export default function Marquee() {
