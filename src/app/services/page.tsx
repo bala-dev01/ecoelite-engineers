@@ -11,7 +11,7 @@ const SERVICES = [
     title: 'Ventilation Solutions',
     desc: 'We supply and install Mixed Flow and Circular Inline fans — engineered for high performance, low noise and energy-efficient ducted ventilation across residential, commercial and industrial applications.',
     images: [
-      { src: '/assets/products/Mixed_Flow_Fan.jpeg',      caption: 'Mixed Flow Fan' },
+      { src: '/assets/products/Mixed_Flow_Fan.jpeg',      caption: 'Mixed Flow Inline Fan' },
       { src: '/assets/products/Circular_Inline_Fan.jpeg', caption: 'Circular Inline Fan' },
     ],
     products: [
@@ -28,19 +28,19 @@ const SERVICES = [
     num: '02',
     label: 'Air Purification',
     title: 'Air Purification Solutions',
-    desc: 'Our ESPair range of electrostatic air cleaners and UVGI systems removes grease, smoke, cooking odours and airborne pathogens from commercial kitchens and HVAC systems — with up to 99% filtration efficiency and no disposable filters.',
+    desc: 'Our Espair ELX range of electrostatic air cleaners and UVGI systems removes grease, smoke, cooking odours and airborne pathogens from commercial kitchens and HVAC systems — with up to 99% filtration efficiency and no disposable filters.',
     images: [
       { src: '/assets/products/Electrostatic_Air_Cleaner.jpeg', caption: 'Electrostatic Air Cleaner (Dry Scrubber)' },
     ],
     products: [
-      'KET Series Electrostatic Air Cleaners',
+      'Espair ELX Series Electrostatic Air Cleaners',
       'Kitchen Exhaust Scrubbers',
       'UVGI Systems for AC Ducts',
       'Odour Remover Modules',
       'AutoKleen Wash Systems',
     ],
     applications: ['Commercial Kitchens & Restaurants', 'Food Processing Plants', 'Hospitals & Clinics', 'Office HVAC Systems', 'Welding & CNC Shops'],
-    partnerLabel: 'ESPair',
+    partnerLabel: 'ESPair (Authorised Partner)',
     partnerHref: 'https://espair.co.in',
   },
   {
@@ -62,6 +62,63 @@ const SERVICES = [
     applications: ['Commercial Buildings', 'Industrial Facilities', 'Data Centres', 'Hospitals', 'Shopping Complexes'],
     partnerLabel: 'Acton Power Solutions',
     partnerHref: 'https://www.actonpower.in',
+  },
+  {
+    num: '04',
+    label: 'Heat Pumps',
+    title: 'Heat Pump Solutions',
+    desc: 'We supply and install high-efficiency air-source heat pumps for domestic hot water, swimming pool heating, and commercial applications. Sourced from leading manufacturers, our systems feature titanium heat exchangers, smart controllers, and inverter compressors to deliver hot water at up to 80% lower energy costs compared to traditional electric heaters.',
+    images: [
+      { src: '/assets/products/Residential_Heat_Pump.jpeg', caption: 'Residential Heat Pump' },
+      { src: '/assets/products/Commercial_Heat_Pump.jpeg', caption: 'Commercial Modular Heat Pump' },
+    ],
+    products: [
+      'Residential Heat Pumps (5–200 L/hr)',
+      'Commercial Modular Heat Pumps',
+      'Swimming Pool Heat Pumps',
+      'Titanium Heat Exchangers & Controllers',
+    ],
+    applications: ['Hotels & Resorts', 'Hospitals & Clinics', 'Apartment Buildings & Villas', 'Swimming Pools & Clubs', 'Residential Water Heating'],
+    partnerLabel: null,
+    partnerHref: null,
+  },
+  {
+    num: '05',
+    label: 'AC & Cooling',
+    title: 'HVAC & Cooling Systems',
+    desc: 'Our commercial air conditioning range includes floor-standing Tower AC units and ceiling-recessed Cassette AC systems. Engineered with inverter compressors and smart controllers, they provide powerful and uniform cooling for large spaces without compromising architectural aesthetics.',
+    images: [
+      { src: '/assets/products/Tower_AC.jpeg', caption: 'Floor-standing Tower AC' },
+      { src: '/assets/products/Cassette_AC.jpeg', caption: 'Ceiling Cassette AC' },
+    ],
+    products: [
+      'Floor-standing Tower AC Units',
+      'Ceiling-flush Cassette AC Systems',
+      'Inverter Cooling Compressors',
+      'Smart Thermostats & BMS Controls',
+    ],
+    applications: ['Retail Showrooms', 'Server & UPS Rooms', 'Commercial Offices', 'Conference & Banquet Halls', 'Large Open Spaces'],
+    partnerLabel: null,
+    partnerHref: null,
+  },
+  {
+    num: '06',
+    label: 'HVLS Fans',
+    title: 'HVLS Fan Solutions',
+    desc: 'For large facilities requiring massive air movement, we offer High Volume Low Speed (HVLS) industrial ceiling fans. Available in premium white and black finishes, these large-diameter fans circulate massive volumes of air at low speeds, creating a cooling breeze and reducing heating/cooling costs through air destratification.',
+    images: [
+      { src: '/assets/products/HVLS_Fans_White.jpeg', caption: 'HVLS Fan — White' },
+      { src: '/assets/products/HVLS_Fans_Black.jpeg', caption: 'HVLS Fan — Black' },
+    ],
+    products: [
+      'High Volume Low Speed Ceiling Fans',
+      'White & Black Finish Variants',
+      'Variable Speed Drive (VFD) Panels',
+      'Reversible Flow Fans',
+    ],
+    applications: ['Industrial Warehouses', 'Manufacturing & Assembly Floors', 'Sports Gymnasiums & Halls', 'Atriums & Large Lobbies', 'Public Transport Terminals'],
+    partnerLabel: null,
+    partnerHref: null,
   },
 ];
 

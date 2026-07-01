@@ -12,7 +12,7 @@ const SERVICES = [
     customIcon: true,
     title: 'Ventilation Solutions',
     desc: 'Complete indoor air quality solutions with Mixed Flow and Circular Inline Fans — designed for residential, commercial and industrial facilities. High performance, low noise and energy-efficient ventilation for any duct size.',
-    tags: ['Mixed Flow Fans', 'Circular Inline Fans'],
+    tags: ['Mixed Flow Inline Fans', 'Circular Inline Fans'],
   },
   {
     icon: '',
@@ -29,6 +29,30 @@ const SERVICES = [
     title: 'Electrical Solutions',
     desc: 'Custom-designed and installed AHU starter panels, LT panels, basement ventilation control panels and CPM panels for safe, reliable power distribution and control in commercial and industrial facilities.',
     tags: ['AHU Starter Panels', 'LT Panels', 'Basement Ventilation Panels', 'CPM Panels'],
+  },
+  {
+    icon: '',
+    iconPaths: [],
+    customIcon: false,
+    title: 'Heat Pump Solutions',
+    desc: 'Energy-efficient air-source heat pump heating solutions for residential hot water, swimming pool heating, and commercial applications — saving up to 80% on energy costs.',
+    tags: ['Residential Heat Pumps', 'Commercial Heat Pumps', 'Pool Heat Pumps'],
+  },
+  {
+    icon: '',
+    iconPaths: [],
+    customIcon: false,
+    title: 'HVAC & Cooling Systems',
+    desc: 'Advanced floor-standing Tower ACs and ceiling Cassette ACs, featuring inverter technology and WiFi control, for even air and temperature distribution in large open spaces.',
+    tags: ['Tower AC (Floor Standing)', 'Cassette AC Systems'],
+  },
+  {
+    icon: '',
+    iconPaths: [],
+    customIcon: false,
+    title: 'HVLS Fan Solutions',
+    desc: 'High Volume Low Speed (HVLS) ceiling fan systems in white and black finishes, providing massive, quiet, and energy-efficient air circulation for warehouses and large industrial spaces.',
+    tags: ['Industrial HVLS Fans', 'Large Open Space Ventilation'],
   },
 ];
 
@@ -54,6 +78,28 @@ const ICONS = [
     <path d="M9 21V9" />
     <circle cx="6" cy="6" r="1" fill="currentColor" />
     <path d="M13 13h5M13 16h3" />
+  </svg>,
+  // Heat Pumps — thermometer
+  <svg key="heat" className="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z" />
+    <path d="M12 9h.01M12 12h.01" />
+  </svg>,
+  // AC Systems — snowflake
+  <svg key="ac" className="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <line x1="12" y1="2" x2="12" y2="22" />
+    <line x1="2" y1="12" x2="22" y2="12" />
+    <path d="m20 16-4-4 4-4" />
+    <path d="m4 8 4 4-4 4" />
+    <path d="m16 4-4 4-4-4" />
+    <path d="m8 20 4-4 4 4" />
+  </svg>,
+  // HVLS Fans — propeller/rotation
+  <svg key="hvls" className="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="2" />
+    <path d="M12 12L3 8" />
+    <path d="M12 12l9-4" />
+    <path d="M12 12v10" />
+    <circle cx="12" cy="12" r="10" strokeDasharray="4 4" />
   </svg>,
 ];
 

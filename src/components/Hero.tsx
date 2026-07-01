@@ -3,17 +3,19 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 
 const VIDEOS = [
-  { src: '/assets/videos/Mixed_Flow_Fan_Landing.mp4',            label: 'Mixed Flow Fan' },
+  { src: '/assets/videos/Mixed_Flow_Fan_Landing.mp4',            label: 'Mixed Flow Inline Fan' },
   { src: '/assets/videos/Circular_Inline_Fan_Landing.mp4',       label: 'Circular Inline Fan' },
   { src: '/assets/videos/Electrostatic_Air_Cleaner_Landing.mp4', label: 'Electrostatic Cleaner' },
   { src: '/assets/videos/Panels.mp4',                            label: 'Electrical Panel' },
+  { src: '/assets/videos/Air_Conditioner.mp4',                   label: 'Air Conditioning' },
+  { src: '/assets/videos/Heat_Pumps.mp4',                        label: 'Heat Pump' },
 ];
 
 export default function Hero() {
   const [active, setActive] = useState(0);
-  const bgRefs   = useRef<(HTMLVideoElement | null)[]>([null, null, null, null]);
-  const cardRefs = useRef<(HTMLVideoElement | null)[]>([null, null, null, null]);
-  const barRefs  = useRef<(HTMLDivElement   | null)[]>([null, null, null, null]);
+  const bgRefs   = useRef<(HTMLVideoElement | null)[]>([]);
+  const cardRefs = useRef<(HTMLVideoElement | null)[]>([]);
+  const barRefs  = useRef<(HTMLDivElement   | null)[]>([]);
   const rafRef   = useRef<number | null>(null);
   const locked   = useRef(false);
 

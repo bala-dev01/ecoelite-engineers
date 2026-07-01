@@ -4,29 +4,28 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 /* ─── Exhaust Fans data ─────────────────────────────── */
-const MF_MODELS = [
-  { name: 'MF-100', power: '30W', specs: { 'Duct Size': '100 mm', 'Airflow': '205 m³/h', 'Pressure': '132 Pa', 'Noise': '31 dB(A)' } },
-  { name: 'MF-150', power: '58W', specs: { 'Duct Size': '150 mm', 'Airflow': '530 m³/h', 'Pressure': '300 Pa', 'Noise': '33 dB(A)' } },
-  { name: 'MF-200', power: '140W', specs: { 'Duct Size': '200 mm', 'Airflow': '840 m³/h', 'Pressure': '350 Pa', 'Noise': '63 dB(A)' } },
-  { name: 'MF-250', power: '200W', specs: { 'Duct Size': '250 mm', 'Airflow': '1400 m³/h', 'Pressure': '489 Pa', 'Noise': '66 dB(A)' } },
-  { name: 'MF-315', power: '400W', specs: { 'Duct Size': '315 mm', 'Airflow': '2200 m³/h', 'Pressure': '690 Pa', 'Noise': '69 dB(A)' } },
+const EMF_MODELS = [
+  { name: 'EMF-100', power: '30W', specs: { 'Duct Size': '100 mm', 'Airflow': '205 m³/h', 'Pressure': '132 Pa', 'Noise': '31 dB(A)' } },
+  { name: 'EMF-150', power: '58W', specs: { 'Duct Size': '150 mm', 'Airflow': '530 m³/h', 'Pressure': '300 Pa', 'Noise': '33 dB(A)' } },
+  { name: 'EMF-200', power: '140W', specs: { 'Duct Size': '200 mm', 'Airflow': '840 m³/h', 'Pressure': '350 Pa', 'Noise': '63 dB(A)' } },
+  { name: 'EMF-250', power: '200W', specs: { 'Duct Size': '250 mm', 'Airflow': '1400 m³/h', 'Pressure': '489 Pa', 'Noise': '66 dB(A)' } },
+  { name: 'EMF-315', power: '400W', specs: { 'Duct Size': '315 mm', 'Airflow': '2200 m³/h', 'Pressure': '690 Pa', 'Noise': '69 dB(A)' } },
 ];
 
-const MF_FEATURES = ['Mixed Flow Impeller', 'IP44 Rated', 'Low Noise', '50,000 h Bearing', '-20°C to 60°C', 'Easy Maintenance'];
+const EMF_FEATURES = ['Mixed Flow Impeller', 'IP44 Rated', 'Low Noise', '50,000 h Bearing', '-20°C to 60°C', 'Easy Maintenance'];
 
-const CI_MODELS = [
-  { name: 'CI-100', power: '25W', specs: { 'Duct Size': '100 mm', 'Airflow': '180 m³/h', 'Pressure': '120 Pa', 'Noise': '30 dB(A)' } },
-  { name: 'CI-150', power: '45W', specs: { 'Duct Size': '150 mm', 'Airflow': '450 m³/h', 'Pressure': '250 Pa', 'Noise': '32 dB(A)' } },
-  { name: 'CI-200', power: '95W', specs: { 'Duct Size': '200 mm', 'Airflow': '750 m³/h', 'Pressure': '300 Pa', 'Noise': '38 dB(A)' } },
-  { name: 'CI-250', power: '150W', specs: { 'Duct Size': '250 mm', 'Airflow': '1200 m³/h', 'Pressure': '420 Pa', 'Noise': '42 dB(A)' } },
-  { name: 'CI-315', power: '350W', specs: { 'Duct Size': '315 mm', 'Airflow': '1900 m³/h', 'Pressure': '580 Pa', 'Noise': '48 dB(A)' } },
+const ECF_MODELS = [
+  { name: 'ECF-150', power: '45W', specs: { 'Duct Size': '150 mm', 'Airflow': '450 m³/h', 'Pressure': '250 Pa', 'Noise': '32 dB(A)' } },
+  { name: 'ECF-200', power: '95W', specs: { 'Duct Size': '200 mm', 'Airflow': '750 m³/h', 'Pressure': '300 Pa', 'Noise': '38 dB(A)' } },
+  { name: 'ECF-250', power: '150W', specs: { 'Duct Size': '250 mm', 'Airflow': '1200 m³/h', 'Pressure': '420 Pa', 'Noise': '42 dB(A)' } },
+  { name: 'ECF-315', power: '350W', specs: { 'Duct Size': '315 mm', 'Airflow': '1900 m³/h', 'Pressure': '580 Pa', 'Noise': '48 dB(A)' } },
 ];
 
-const CI_FEATURES = ['Circular Inline Design', 'IP44 Rated', 'Compact & Quiet', '50,000 h Bearing', 'Supply & Exhaust', 'Direct Duct Connection'];
+const ECF_FEATURES = ['Circular Inline Design', 'IP44 Rated', 'Compact & Quiet', '50,000 h Bearing', 'Supply & Exhaust', 'Direct Duct Connection'];
 
 /* ─── Air Cleaner data ──────────────────────────────── */
 const AC_SPECS = {
-  'Series': 'KET (Smoke Eater)',
+  'Series': 'Espair ELX (Smoke Eater)',
   'Technology': 'Electrostatic Precipitation',
   'Efficiency': '95–99%',
   'Air Volume': '7,500–10,000 CFM',
@@ -52,7 +51,7 @@ function FanImage({ type }: { type: 'mixed' | 'circular' }) {
     <div className="product-img-frame">
       <Image
         src={type === 'mixed' ? '/assets/products/Mixed_Flow_Fan.jpeg' : '/assets/products/Circular_Inline_Fan.jpeg'}
-        alt={type === 'mixed' ? 'Mixed Flow Inline Fan' : 'Circular Inline Fan'}
+        alt={type === 'mixed' ? 'Mixed Flow Inline Fan' : 'ECF Series Inline Fan'}
         fill
         sizes="(max-width: 768px) 100vw, 50vw"
         className="product-real-img"
@@ -69,14 +68,14 @@ type Tab = typeof TABS[number];
 export default function Products() {
   const [tab, setTab] = useState<Tab>('Exhaust Fans');
   const [fanType, setFanType] = useState<'mixed' | 'circular'>('mixed');
-  const [mfActive, setMfActive] = useState(0);
-  const [ciActive, setCiActive] = useState(0);
+  const [emfActive, setEmfActive] = useState(0);
+  const [ecfActive, setEcfActive] = useState(0);
 
-  const models = fanType === 'mixed' ? MF_MODELS : CI_MODELS;
-  const features = fanType === 'mixed' ? MF_FEATURES : CI_FEATURES;
-  const activeModel = fanType === 'mixed' ? models[mfActive] : models[ciActive];
-  const setActive = fanType === 'mixed' ? setMfActive : setCiActive;
-  const activeIdx = fanType === 'mixed' ? mfActive : ciActive;
+  const models = fanType === 'mixed' ? EMF_MODELS : ECF_MODELS;
+  const features = fanType === 'mixed' ? EMF_FEATURES : ECF_FEATURES;
+  const activeModel = fanType === 'mixed' ? models[emfActive] : models[ecfActive];
+  const setActive = fanType === 'mixed' ? setEmfActive : setEcfActive;
+  const activeIdx = fanType === 'mixed' ? emfActive : ecfActive;
 
   return (
     <section className="products" id="products">
@@ -109,16 +108,16 @@ export default function Products() {
               <FanImage type={fanType} />
               <div className="fan-type-toggle">
                 <button className={fanType === 'mixed' ? 'active' : ''} onClick={() => setFanType('mixed')}>Mixed Flow</button>
-                <button className={fanType === 'circular' ? 'active' : ''} onClick={() => setFanType('circular')}>Circular Inline</button>
+                <button className={fanType === 'circular' ? 'active' : ''} onClick={() => setFanType('circular')}>ECF Inline</button>
               </div>
             </div>
 
             <div className="product-details">
-              <h3>{fanType === 'mixed' ? 'Mixed Flow Inline Fan' : 'Circular Inline Fan'}</h3>
+              <h3>{fanType === 'mixed' ? 'Mixed Flow Inline Fan' : 'ECF Series Inline Fan'}</h3>
               <p className="product-subtitle">
                 {fanType === 'mixed'
                   ? 'High performance, low-profile mixed-flow fans for residential, commercial and industrial ducted ventilation.'
-                  : 'Compact circular inline fans for kitchen, bathroom and office extract and supply air systems.'}
+                  : 'Compact ECF series inline fans for kitchen, bathroom and office extract and supply air systems.'}
               </p>
               <div className="model-grid">
                 {models.map((m, i) => (
@@ -162,14 +161,14 @@ export default function Products() {
                 />
               </div>
               <p className="product-source-label">
-                Sourced from <a href="https://espair.co.in" target="_blank" rel="noopener noreferrer">ESPair</a>
+                Sourced from <a href="https://espair.co.in" target="_blank" rel="noopener noreferrer">ESPair</a> (Authorised Partner)
               </p>
             </div>
 
             <div className="product-details">
               <h3>Electrostatic Air Cleaner (Dry Scrubber)</h3>
               <p className="product-subtitle">
-                ESPair KET Series — electrostatic precipitator for commercial kitchens, welding shops and industrial air cleaning. No filter replacements, just routine cleaning.
+                Espair ELX Series — electrostatic precipitator for commercial kitchens, welding shops and industrial air cleaning. No filter replacements, just routine cleaning.
               </p>
               <div className="specs-list">
                 {Object.entries(AC_SPECS).map(([k, v]) => (

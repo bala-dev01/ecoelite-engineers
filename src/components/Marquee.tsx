@@ -1,7 +1,7 @@
 'use client';
 
 const WORDS = [
-  'Ventilation Solutions', 'Mixed Flow Fans', 'Circular Inline Fans',
+  'Ventilation Solutions', 'Mixed Flow Inline Fans', 'Circular Inline Fans',
   'Air Purification', 'Electrostatic Precipitator', 'Kitchen Exhaust Scrubbers',
   'UVGI Systems', 'Electrical Panels', 'AHU Starter Panels', 'LT Panels',
   'Basement Ventilation', 'CPM Panels',

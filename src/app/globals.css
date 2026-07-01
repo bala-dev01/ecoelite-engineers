@@ -342,6 +342,11 @@ body.cursor-text .cursor-ring {
   border-radius: 50%;
   object-fit: contain;
 }
+.nav-logo-img-horizontal {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
 .nav-logo-text {
   display: flex;
   flex-direction: column;
@@ -824,6 +829,19 @@ body.cursor-text .cursor-ring {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+.panels-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.panels-grid-accessories {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 900px) {
+  .panels-grid-accessories { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .panels-grid-2,
+  .panels-grid-accessories { grid-template-columns: 1fr; }
+}
 .panel-section-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -1178,8 +1196,8 @@ body.cursor-text .cursor-ring {
 
 .hero-vcard {
   position: relative;
-  width: 176px;
-  height: 98px;
+  width: 154px;
+  height: 86px;
   border-radius: 10px;
   overflow: hidden;
   border: 1.5px solid rgba(255, 255, 255, 0.12);
@@ -1242,7 +1260,7 @@ body.cursor-text .cursor-ring {
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 1.5rem 0.65rem 0.55rem;
+  padding: 1.2rem 0.5rem 0.45rem;
   background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, transparent 100%);
   display: flex;
   align-items: center;

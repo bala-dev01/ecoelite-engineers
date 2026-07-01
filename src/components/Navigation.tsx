@@ -34,11 +34,15 @@ export default function Navigation() {
 
           {/* Logo */}
           <Link href="/" className="nav-logo">
-            <Image src="/EEE.png" alt="Ecoelite Engineers" width={68} height={68} className="nav-logo-img" priority />
-            <div className="nav-logo-text">
-              <span className="nav-logo-main">ECOELITE</span>
-              <span className="nav-logo-sub">ENGINEERS</span>
-            </div>
+            <Image
+              src="/Horizontal_logo.png"
+              alt="Ecoelite Engineers"
+              width={180}
+              height={40}
+              className="nav-logo-img-horizontal"
+              priority
+              style={{ objectFit: 'contain', height: '40px', width: 'auto' }}
+            />
           </Link>
 
           {/* Divider */}

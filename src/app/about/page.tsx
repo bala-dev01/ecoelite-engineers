@@ -79,11 +79,12 @@ export default function AboutPage() {
                 <span className="line-wrapper"><span className="line-inner">Who We Are</span></span>
               </h2>
               <p className="about-description">
-                Ecoelite Engineers is a Bengaluru-based engineering firm specialising in
-                ventilation, air purification and electrical panel solutions for commercial
-                and industrial facilities. With over a decade of on-the-ground experience,
-                we supply and install ventilation fans, electrostatic air cleaners
-                and electrical panels for a wide range of commercial and industrial clients.
+                Ecoelite Engineers is one of the leading engineering and supply companies
+                present in India, specialising in ventilation, air purification, and
+                electrical panel solutions for commercial and industrial facilities.
+                With over a decade of on-the-ground experience, we supply and install
+                ventilation fans, electrostatic air cleaners, and custom electrical panels
+                for a wide range of clients nationwide.
               </p>
               <p className="about-description" style={{ marginTop: '1rem' }}>
                 Our team brings deep technical knowledge to every project — from

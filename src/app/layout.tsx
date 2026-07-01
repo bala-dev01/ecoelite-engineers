@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ecoelite Engineers | Ventilation · Air Purification · Electrical",
     description:
-      "Mixed flow fans, electrostatic air cleaners and electrical panels — supplied and installed by Ecoelite Engineers, Bengaluru.",
+      "Mixed flow inline fans, electrostatic air cleaners and electrical panels — supplied and installed by Ecoelite Engineers, Bengaluru.",
     url: "https://ecoelite-engineers.netlify.app",
     siteName: "Ecoelite Engineers",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ecoelite Engineers | Ventilation · Air Purification · Electrical",
     description:
-      "Mixed flow fans, electrostatic air cleaners and electrical panels — supplied and installed in Bengaluru.",
+      "Mixed flow inline fans, electrostatic air cleaners and electrical panels — supplied and installed in Bengaluru.",
     images: ["/assets/Meta_Image.jpg"],
   },
 };

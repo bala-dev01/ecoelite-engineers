@@ -23,11 +23,12 @@ export default function About() {
               <span className="line-wrapper"><span className="line-inner">Greener Future</span></span>
             </h2>
             <p className="about-description">
-              Ecoelite Engineers specialises in cutting-edge HVAC and electrical
-              solutions designed for energy efficiency and environmental
-              responsibility. From commercial ventilation systems to smart
-              building integrations, we deliver precision-engineered solutions
-              that reduce carbon footprints while maximising performance.
+              Ecoelite Engineers is one of the leading companies present in India
+              specialising in cutting-edge HVAC and electrical solutions designed
+              for energy efficiency and environmental responsibility. From commercial
+              ventilation systems to smart building integrations, we deliver
+              precision-engineered solutions that reduce carbon footprints while
+              maximising performance across the nation.
             </p>
           </div>
           <div className="about-image-wrapper" data-animate="reveal-image">

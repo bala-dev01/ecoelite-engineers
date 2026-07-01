@@ -15,8 +15,9 @@ export default function Footer() {
               <span>ECOELITE ENGINEERS</span>
             </a>
             <p>
-              Ventilation, air purification and electrical engineering solutions for
-              commercial and industrial facilities across Bengaluru and beyond.
+              One of the leading engineering companies present in India, providing
+              sustainable ventilation, air purification, and electrical solutions for
+              commercial and industrial facilities.
             </p>
           </div>
 
@@ -30,7 +31,7 @@ export default function Footer() {
             </div>
             <div className="footer-col">
               <h4>Products</h4>
-              <a href="#products">Mixed Flow Fans</a>
+              <a href="#products">Mixed Flow Inline Fans</a>
               <a href="#products">Circular Inline Fans</a>
               <a href="#products">Electrostatic Air Cleaner</a>
               <a href="#products">Electrical Panels</a>
