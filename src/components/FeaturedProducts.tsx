@@ -93,7 +93,7 @@ export default function FeaturedProducts() {
             </Link>
           ))}
         </div>
-        <div className="section-actions" style={{ display: 'flex', justifyContent: 'center', marginTop: '3.5rem' }}>
+        <div className="fp-actions">
           <Link href="/products" className="cta-btn magnetic-btn">
             View All Products
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

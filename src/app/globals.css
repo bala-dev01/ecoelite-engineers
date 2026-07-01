@@ -2197,6 +2197,13 @@ body.cursor-text .cursor-ring {
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
+.fp-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: clamp(4rem, 8vw, 7rem);
+  position: relative;
+  z-index: 5;
+}
 .fp-card {
   display: flex;
   flex-direction: column;
@@ -2327,10 +2334,13 @@ body.cursor-text .cursor-ring {
 .fp-card:hover .fp-card-link { gap: 0.65rem; }
 .fp-card-link svg { width: 14px; height: 14px; }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+  .fp-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 900px) {
   .fp-grid { grid-template-columns: repeat(2, 1fr); }
 }
-@media (max-width: 640px) {
+@media (max-width: 600px) {
   .fp-grid { grid-template-columns: 1fr; }
 }
 
