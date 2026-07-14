@@ -17,8 +17,8 @@ const CONTACT_ITEMS = [
   },
   {
     label: 'Address',
-    value: '#12AS, 1st Floor, 1st Cross, 2nd Block, 4th Phase,\nSrividya Nagar, BSK 3rd Stage,\nBangalore – 560085',
-    href: 'https://maps.google.com/?q=Srividya+Nagar+BSK+3rd+Stage+Bangalore+560085',
+    value: 'No. 12 AS, 1st Floor, 1st Cross, 2nd Phase, 4 Block,\nHosakerehalli Cross, Sri Vidyanagar,\nBanashankari III Stage, Bangalore – 560085, Karnataka.',
+    href: 'https://maps.google.com/?q=Hosakerehalli+Cross+Sri+Vidyanagar+Banashankari+III+Stage+Bangalore+560085',
     icon: 'M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z',
   },
 ];

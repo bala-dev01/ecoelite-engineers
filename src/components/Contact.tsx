@@ -24,7 +24,7 @@ export default function Contact() {
               </div>
               <div className="contact-detail">
                 <span className="detail-label">Address</span>
-                <span>#12AS, 1st Floor, 1st Cross, 2nd Block,<br />4th Phase, Srividya Nagar,<br />BSK 3rd Stage, Bangalore – 560085</span>
+                <span>No. 12 AS, 1st Floor, 1st Cross,<br />2nd Phase, 4 Block, Hosakerehalli Cross,<br />Sri Vidyanagar, Banashankari III Stage,<br />Bangalore – 560085, Karnataka.</span>
               </div>
             </div>
 
